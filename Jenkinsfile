@@ -24,7 +24,7 @@ pipeline {
                 }
             }
         }
-/*
+
         stage('Build Docker Image') {
             agent {
                 docker {
@@ -58,7 +58,7 @@ pipeline {
                 }
             }
         }
-
+/*
         stage('Deploy to ECS') {
             agent {
                 docker {
